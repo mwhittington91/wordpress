@@ -8,7 +8,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/mnt/data/wordpress"
+    path: "./wordpress_data"
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
